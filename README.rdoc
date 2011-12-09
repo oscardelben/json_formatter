@@ -1,7 +1,18 @@
 = json_formatter
 
-Simple json formatting from your command line. I want to test this a
-little bit and then I'll release it as a ruby gem.
+Simple json formatting from your command line.
+
+Installation:
+
+    gem install json_formatter
+
+Example:
+
+    curl http://example.com | json_formatter
+
+or
+
+    json_formatter "{}"
 
 == Copyright
 
