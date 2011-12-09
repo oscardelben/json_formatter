@@ -1,0 +1,6 @@
+require 'json'
+
+p ARGV
+
+json = ARGV.last
+puts JSON.pretty_generate(json)
