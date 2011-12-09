@@ -1,6 +1,7 @@
 = json_formatter
 
-Simple json formatting from your command line.
+Simple json formatting from your command line. I want to test this a
+little bit and then I'll release it as a ruby gem.
 
 == Copyright
 

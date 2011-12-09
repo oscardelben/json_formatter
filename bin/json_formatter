@@ -1,6 +1,8 @@
 require 'json'
 
-p ARGV
+json = ARGV.first || ARGF.read
 
-json = ARGV.last
-puts JSON.pretty_generate(json)
+puts "Usage: json_formatter 'json string'" unless json
+
+puts JSON.pretty_generate(JSON.parse(json)) rescue "Error parsing JSON
+string"
